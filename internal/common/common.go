@@ -22,7 +22,8 @@ var Logger *logrus.Logger
 // Disables HTTP forcing in irma.HTTPTransport for all instances,
 // regardless of the instance's ForceHTTPS member.
 // Only for use in unit tests.
-var ForceHTTPS = true
+// var ForceHTTPS = true
+var ForceHTTPS = false
 
 const (
 	sessionChars       = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
